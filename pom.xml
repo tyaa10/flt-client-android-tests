@@ -77,6 +77,14 @@
             <version>5.8.2</version>
             <scope>test</scope>
         </dependency>
+        <!-- Декларативное задание генерации стандартных членов классов -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.34</version>
+            <optional>true</optional>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
